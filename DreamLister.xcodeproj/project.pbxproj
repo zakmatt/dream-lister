@@ -24,6 +24,8 @@
 		849C3D4A1F084AA2007A3616 /* yacht.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C3D491F084AA2007A3616 /* yacht.jpg */; };
 		849C3D4D1F084C13007A3616 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C3D4C1F084C13007A3616 /* MaterialView.swift */; };
 		849C3D4F1F0AD374007A3616 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C3D4E1F0AD373007A3616 /* ItemCell.swift */; };
+		849C3D521F0C183C007A3616 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C3D511F0C183C007A3616 /* ItemDetailsVC.swift */; };
+		849C3D541F0C2075007A3616 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C3D531F0C2075007A3616 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		849C3D491F084AA2007A3616 /* yacht.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yacht.jpg; sourceTree = "<group>"; };
 		849C3D4C1F084C13007A3616 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		849C3D4E1F0AD373007A3616 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		849C3D511F0C183C007A3616 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		849C3D531F0C2075007A3616 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,7 @@
 				849C3D4B1F084BD5007A3616 /* View */,
 				849C3D471F083E48007A3616 /* Model */,
 				849C3CF01F0829BB007A3616 /* AppDelegate.swift */,
-				849C3CF21F0829BB007A3616 /* MainVC.swift */,
+				849C3D501F0C1815007A3616 /* Controller */,
 				849C3CF41F0829BB007A3616 /* Main.storyboard */,
 				849C3CFA1F0829BB007A3616 /* Assets.xcassets */,
 				849C3CFC1F0829BB007A3616 /* LaunchScreen.storyboard */,
@@ -120,8 +124,18 @@
 			children = (
 				849C3D4C1F084C13007A3616 /* MaterialView.swift */,
 				849C3D4E1F0AD373007A3616 /* ItemCell.swift */,
+				849C3D531F0C2075007A3616 /* CustomTextField.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		849C3D501F0C1815007A3616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849C3CF21F0829BB007A3616 /* MainVC.swift */,
+				849C3D511F0C183C007A3616 /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +220,13 @@
 				849C3D3F1F083E40007A3616 /* Item+CoreDataClass.swift in Sources */,
 				849C3D411F083E40007A3616 /* Image+CoreDataClass.swift in Sources */,
 				849C3D441F083E40007A3616 /* Store+CoreDataProperties.swift in Sources */,
+				849C3D521F0C183C007A3616 /* ItemDetailsVC.swift in Sources */,
 				849C3CF91F0829BB007A3616 /* DreamLister.xcdatamodeld in Sources */,
 				849C3D461F083E40007A3616 /* ItemType+CoreDataProperties.swift in Sources */,
 				849C3D431F083E40007A3616 /* Store+CoreDataClass.swift in Sources */,
 				849C3D401F083E40007A3616 /* Item+CoreDataProperties.swift in Sources */,
 				849C3D421F083E40007A3616 /* Image+CoreDataProperties.swift in Sources */,
+				849C3D541F0C2075007A3616 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
